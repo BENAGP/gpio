@@ -1,0 +1,1 @@
+cmd_/home/student/gpio/Chardev/Chardev.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/student/gpio/Chardev/Chardev.ko /home/student/gpio/Chardev/Chardev.o /home/student/gpio/Chardev/Chardev.mod.o
