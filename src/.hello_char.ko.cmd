@@ -1,0 +1,1 @@
+cmd_/srv/nfs4/gpio/src/hello_char.ko := arm-linux-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o /srv/nfs4/gpio/src/hello_char.ko /srv/nfs4/gpio/src/hello_char.o /srv/nfs4/gpio/src/hello_char.mod.o ;  true

@@ -102,5 +102,5 @@ void cleanup_module()
 }
 
 
-MODULE_LICENSE("S");
-MODULE_AUTHOR("BENAGP");
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Stanley Peng");

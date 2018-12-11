@@ -1,0 +1,1 @@
+cmd_/srv/nfs4/gpio/Chardev/Chardev.ko := arm-linux-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o /srv/nfs4/gpio/Chardev/Chardev.ko /srv/nfs4/gpio/Chardev/Chardev.o /srv/nfs4/gpio/Chardev/Chardev.mod.o ;  true

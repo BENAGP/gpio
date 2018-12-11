@@ -10,7 +10,7 @@ int main()
 			char str[100];
 				unsigned long ptr;
 
-					fd=open("/dev/myDevice", O_RDWR);
+					fd=open("./ach", O_RDWR);
 						if(fd<0) {
 									printf("Error open file\n");
 											return(1);
